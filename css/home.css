@@ -1,0 +1,81 @@
+/****************************  Main Home Style  *****************************/
+section.home {
+  margin-top: 84px;
+}
+
+.home {
+  background-image: url(../image/backMain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+
+  z-index: 20;
+}
+.main-home {
+  padding: 40px 0 !important;
+}
+.main-home .container {
+  padding: 25px !important;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  z-index: 55555;
+}
+.img-main img {
+  border-radius: 15px;
+}
+.info-main h1 span,
+.img-main h1 span {
+  font-size: 60px !important;
+  font-family: boldd;
+  color: #3b2a65;
+  margin-top: 5px;
+  white-space: nowrap;
+}
+.info-main p {
+  margin-top: 55px;
+  font-family: regular;
+}
+.info-main a {
+  display: inline-block;
+  padding: 10px 50px;
+  color: #fff;
+  background-color: #3b2a65;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-family: boldd;
+  margin-top: 40px;
+  transition: 0.4s;
+}
+/****************************  Main Home Style  *****************************/
+.owl-nav button {
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0) !important;
+  display: inline-block;
+  border-radius: 50% !important;
+  font-size: 13px !important;
+  outline: none !important;
+  transition: 0.3s;
+}
+.home-carousel {
+  position: relative;
+}
+.owl-nav button:hover {
+  background-color: #5ddbfc !important;
+  color: #fff !important;
+}
+.owl-nav button:first-child {
+  right: 3%;
+}
+.owl-nav button:nth-child(2) {
+  left: 3%;
+}
+.info-main a:hover {
+  background-color: #52c4e0;
+}

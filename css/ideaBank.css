@@ -1,0 +1,64 @@
+section.idea-bank {
+  margin-top: 84px;
+  background-color: #3b2a65;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+section.idea-bank::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -12px;
+  background-image: url(../image/starts-about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 100%;
+}
+.idea-bank .container-div {
+  padding: 0 16px;
+}
+.info-idea-bank h1,
+.info-idea-bank h4 {
+  white-space: nowrap;
+  font-family: boldd;
+}
+.info-idea-bank h4 span {
+  position: relative;
+}
+.info-idea-bank h4 span::before {
+  content: "";
+  width: 40%;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #5ddbfc;
+}
+.info-idea-bank p {
+  font-family: regular;
+}
+.img-idea-bank {
+  width: 90%;
+}
+.img-idea-bank img {
+  border-radius: 20px;
+  width: 90%;
+}
+.btn-idea-bank a {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #fff;
+  color: #3b2a65;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+  font-family: boldd;
+  outline: none;
+  transition: 0.3s;
+}
+.btn-idea-bank a:hover {
+  background-color: #5ddbfc;
+  color: #fff;
+}

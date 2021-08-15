@@ -1,0 +1,91 @@
+section.events {
+  margin-top: 84px;
+  background-color: #3b2a65;
+  position: relative;
+  overflow: hidden;
+}
+.events .container-div .header-events h3 span {
+  color: #fff;
+  position: relative;
+  font-family: boldd;
+}
+
+.events .container-div .header-events h3 span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #5ddbfc;
+  width: 45%;
+  height: 2px;
+}
+.events .body-events .header-body {
+  font-family: boldd;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.body-events .card .card-body {
+  padding: 7px;
+  border-radius: 15px;
+}
+.body-events .card .card-body .card-info {
+  padding: 5px;
+  border-radius: 15px;
+}
+.body-events .card .card-body .card-info h6 {
+  color: #3b2a65;
+  font-family: boldd;
+}
+.body-events .card .card-body .card-info p {
+  color: #858a8f;
+  font-family: regular;
+  font-size: 15px;
+}
+.body-events .card {
+  border-radius: 10px;
+}
+.body-events .card img {
+  border-radius: 10px;
+}
+.read-more a {
+  color: #3b2a65;
+  font-family: boldd;
+  transition: 0.3s;
+}
+.read-more a:hover {
+  color: #52c4e0;
+}
+
+.read-more a:hover::after {
+  transform: scale(1);
+}
+
+.read-more a i {
+  font-size: 13px;
+  margin-right: 2px;
+}
+.owl-nav button {
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #5ddbfc !important;
+  color: #fff !important;
+  display: inline-block;
+  border-radius: 50% !important;
+  font-size: 13px !important;
+  outline: none !important;
+  transition: 0.3s;
+}
+.owl-nav button:hover {
+  background-color: #a689f7 !important;
+}
+.owl-nav button:first-child {
+  right: -18px;
+}
+.owl-nav button:nth-child(2) {
+  left: -18px;
+}

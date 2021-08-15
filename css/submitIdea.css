@@ -1,0 +1,149 @@
+section.submit-idea {
+  margin-top: 84px;
+  background-color: #3b2a65;
+  position: relative;
+  overflow: hidden;
+}
+.info-progress {
+  color: #fff;
+}
+.info-progress .brogress-item span:first-child {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: #3b2a65;
+}
+.info-progress .brogress-item.active span:first-child {
+  background-color: #5ddbfc;
+}
+.info-progress .brogress-item {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-family: boldd;
+}
+.info-progress .brogress-item::before {
+  content: "";
+  position: absolute;
+  right: 60%;
+  top: 25%;
+  width: 81%;
+  height: 1px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #5ddbfc;
+  border-radius: 50%;
+}
+.info-progress .brogress-item:last-child:before {
+  width: 0%;
+}
+
+.info-progress .brogress-item span:nth-child(2) {
+  margin-top: 10px;
+}
+.info-progress {
+  display: flex;
+  justify-content: space-between;
+}
+.card-form .card {
+  border-radius: 15px;
+}
+.card-form {
+  margin: 0 15px;
+}
+.card-form .card-body {
+  padding: 15px 35px 25px 35px;
+}
+.card-form label {
+  font-family: boldd;
+  color: #2a1935;
+}
+.card-form input,
+.card-form select,
+.card-form textarea {
+  font-family: regular;
+  border-radius: 10px;
+  background-color: #f8f7f9;
+}
+.card-form h6 {
+  color: #3b2a65;
+}
+
+.card-form input::placeholder,
+.card-form select option,
+.card-form textarea::placeholder {
+  color: #8a8a8f;
+}
+.card-form select {
+  cursor: pointer;
+}
+.next-btn a {
+  /* padding: 9px 115px; */
+  display: inline-block;
+  padding: 10px 0;
+  width: 270px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  border: 1px solid #fff;
+  color: #2a1935;
+  font-family: boldd;
+  transition: 0.3s;
+}
+.next-btn a:hover {
+  border: 1px solid #5ddbfc;
+  color: #fff;
+  background-color: #5ddbfc;
+}
+.prev-btn a {
+  padding: 10px 0;
+  display: inline-block;
+  width: 270px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #ffffff;
+  transition: 0.3s;
+
+  font-family: boldd;
+}
+.prev-btn a:hover {
+  border: 1px solid #5ddbfc;
+  color: #fff;
+  background-color: #5ddbfc;
+}
+.card-form h5 {
+  font-family: boldd;
+  margin-top: 10px;
+  color: #2a1935;
+  margin-bottom: 15px;
+}
+.card-form .card-footer {
+  padding: 10px 35px;
+}
+.card-form .card-footer span {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.form-control-lg {
+  font-size: 14px;
+}
+.budget-wrapper div {
+  width: 100%;
+  margin-left: 20px;
+}
+.budget-wrapper div:last-child {
+  margin-left: 0px;
+}

@@ -1,0 +1,45 @@
+section.about-branch {
+  margin-top: 84px;
+  background-color: #3b2a65;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+section.about-branch::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -12px;
+  background-image: url(../image/starts-about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 100%;
+}
+.about-branch .container-div {
+  padding: 0 16px;
+}
+.info-about-branch h2,
+.info-about-branch h4 {
+  font-family: boldd;
+}
+.info-about-branch p {
+  font-family: regular;
+}
+.img-about-branch {
+  width: 90%;
+  position: relative;
+}
+.img-about-branch img {
+  border-radius: 20px;
+}
+.img-about-branch::before {
+  content: "";
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #302d3a4f;
+}

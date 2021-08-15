@@ -1,0 +1,90 @@
+section.about {
+  margin-top: 84px;
+  background-color: #3b2a65;
+  position: relative;
+  overflow: hidden;
+}
+section.about::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../image/starts-about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 100%;
+}
+.about .container-div {
+  padding: 0 16px;
+}
+.about .container-div .header-about h3 span {
+  color: #fff;
+  position: relative;
+  font-family: boldd;
+}
+.about .container-div .header-about h3 span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #5ddbfc;
+  width: 45%;
+  height: 2px;
+}
+.boxes-about .card {
+  border-radius: 15px;
+}
+.boxes-about .card .card-head {
+  position: relative;
+}
+.boxes-about .card .card-head span {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  background-color: #f4f3f4;
+  border: 1px solid #e7e5ea;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+}
+.card-body {
+  text-align: center;
+  padding: 15px;
+  padding-top: 50px;
+}
+.card-body h6 {
+  color: #3b2a65 !important;
+  font-family: boldd;
+}
+.card-body p {
+  font-size: 15px;
+  font-family: regular;
+}
+.card-body a {
+  display: inline-block;
+  margin-bottom: 5px !important;
+}
+.boxes-about .card .card-head span img {
+  width: 55px;
+}
+.card-body a {
+  font-family: boldd;
+  color: #3b2a65;
+  transition: 0.3s;
+}
+.card-body a:hover {
+  font-family: boldd;
+  color: #1c9fc0;
+}
+.card-body a span {
+  font-size: 16px;
+}
+.boxes-about .row {
+  display: flex;
+  justify-content: center !important;
+}
